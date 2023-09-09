@@ -21,8 +21,8 @@ func main() {
 
 	fmt.Println("These cities hosted or will host the Summer Olympics in the giver year...")
 	fmt.Printf("%-18s %-18s \n", "City", "Year")
-	fmt.Printf("%-18s %-18s \n", "LosAngeles", LosAngeles)
-	fmt.Printf("%-18s %-18s \n", "Atlanta", Atlanta)
-	fmt.Printf("%-18s %-18s \n", "Tokyo", Tokyo)
+	fmt.Printf("%-18s %-18v \n", "LosAngeles", LosAngeles)
+	fmt.Printf("%-18s %-18v \n", "Atlanta", Atlanta)
+	fmt.Printf("%-18s %-18v \n", "Tokyo", Tokyo)
 
 }
